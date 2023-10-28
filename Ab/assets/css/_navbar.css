@@ -1,0 +1,56 @@
+/* navbar section styles start */
+.active {
+  border-bottom: 2px solid rgb(63, 62, 62);
+}
+.nav {
+  background-color: rgb(222, 184, 135);
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  overflow: hidden;
+}
+.nav a {
+  float: left;
+  color: rgb(63, 62, 62);
+  text-align: center;
+  padding: 5px 15px;
+  font-size: 16px;
+  line-height: 50px;
+}
+.nav a:hover {
+  border-bottom: 2px solid rgb(63, 62, 62);
+}
+.nav i {
+  color: #716c6cf1;
+}
+.nav a.cap {
+  padding-left: 0px;
+  font-size: 25px;
+}
+.nav a.icon {
+  display: none;
+}
+@media only screen and (max-width: 700px) {
+  .nav a:not(:first-child) {
+    display: none;
+  }
+  .nav a.icon {
+    display: block !important;
+    float: right;
+    padding-right: 0px;
+  }
+  .nav.responsive {
+    position: relative;
+  }
+  .nav.responsive a.icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block !important;
+    text-align: left;
+  }
+}
+/* navbar section styles end */

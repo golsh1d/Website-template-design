@@ -1,0 +1,61 @@
+/* contact & social media icons style start */
+.container-fluid-custome {
+  background-color: rgb(250, 241, 208);
+  color: #716c6cf1;
+  height: 30px;
+  /* overflow: hidden; */
+}
+.container-fluid-custome .contact {
+  font-size: 12px;
+  direction: rtl;
+}
+.container-fluid-custome .contact i {
+  margin-right: 5px;
+  vertical-align: -6px;
+}
+.container-fluid-custome .contact i span {
+  color: rgb(33, 32, 32);
+  margin: 2.5px;
+  /* vertical-align: 0px; */
+}
+.container-fluid-custome .social-media-icons {
+  direction: ltr;
+}
+.container-fluid-custome .social-media-icons a i {
+  vertical-align: -3px;
+}
+.container-fluid-custome .social-media-icons a {
+  color: inherit;
+  margin-right: 5px;
+}
+.container-fluid-custome .social-media-icons a.you-tube:hover {
+  color: #f70000;
+}
+.container-fluid-custome .social-media-icons a.instagram:hover {
+  color: #cb2053ed;
+}
+.container-fluid-custome .social-media-icons a.twitter:hover {
+  color: #1da1f2;
+}
+.container-fluid-custome .social-media-icons a.face-book:hover {
+  color: #0035bbf1;
+}
+.container-fluid-custome .social-media-icons a.telegram:hover {
+  color: #0084c6;
+}
+@media only screen and (max-width: 700px) {
+  .container-fluid-custome .contact i {
+    margin-right: 0px;
+  }
+  .container-fluid-custome .social-media-icons a.face-book,
+  a.telegram {
+    display: none;
+  }
+  .container-fluid-custome .social-media-icons a.twitter {
+    display: inline-block;
+  }
+  .container-fluid-custome .contact i.fa-phone {
+    display: none;
+  }
+}
+/* contact & social media icons style end*/

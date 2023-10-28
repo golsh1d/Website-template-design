@@ -1,0 +1,115 @@
+.footer-section-wrapper {
+  background-color: rgb(222, 184, 135);
+  min-height: 360px;
+  display: grid;
+}
+.footer-section-wrapper .copy-right {
+  color: rgb(33, 32, 32);
+  border-top: 1px solid rgb(146, 120, 88);
+  padding: 10px;
+  font-size: 14px;
+}
+.footer-section-wrapper .disc {
+  padding: 15px;
+}
+.footer-section-wrapper .disc a {
+  color: rgb(33, 32, 32);
+  padding-left: 10px;
+  font-size: 15px;
+}
+.footer-section-wrapper .disc a i {
+  color: rgb(33, 32, 32);
+  font-size: 35px;
+  transform: rotate(-20deg);
+  padding-left: 15px;
+  vertical-align: -5px;
+}
+.footer-section-wrapper .disc p {
+  font-size: 16px;
+  margin-top: 14px;
+  color: rgb(91, 91, 91);
+}
+.footer-section-wrapper .service,
+.social,
+.contact-us {
+  color: rgb(33, 32, 32);
+  padding: 25px 14px;
+}
+.footer-section-wrapper .service h6,
+.social h6,
+.contact-us h6 {
+  font-size: 15px;
+  border-bottom: 1px solid rgb(146, 120, 88);
+  padding-bottom: 10px;
+}
+.footer-section-wrapper .service ul {
+  font-size: 16px;
+  padding-top: 5px;
+  color: rgb(91, 91, 91);
+}
+.footer-section-wrapper .service ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+}
+.footer-section-wrapper .service ul li::before {
+  content: "\276f";
+  vertical-align: -1px;
+  padding-right: 10px;
+}
+.footer-section-wrapper .service ul li:hover {
+  color: rgb(33, 32, 32);
+  padding-right: 15px;
+}
+.footer-section-wrapper .service ul li a {
+  color: rgb(91, 91, 91);
+}
+.footer-section-wrapper .service ul li a:hover {
+  color: rgb(33, 32, 32);
+}
+.footer-section-wrapper .social ul {
+  direction: ltr;
+  padding-top: 10px;
+}
+.footer-section-wrapper .social ul a {
+  color: rgb(91, 91, 91);
+  padding-right: 15px;
+  transition: 0.5s ease;
+}
+.footer-section-wrapper .social ul a:hover {
+  color: rgb(33, 32, 32);
+}
+.footer-section-wrapper form {
+  margin-top: 45px;
+}
+.footer-section-wrapper form input[type="text"] {
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+.footer-section-wrapper form input[type="submit"] {
+  top: 1px;
+  right: 0px;
+  border: none;
+  background-color: rgb(129, 129, 129);
+  color: #fff;
+  height: 38px;
+  padding: 0px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.footer-section-wrapper .contact-us ul {
+  padding-top: 10px;
+  color: rgb(91, 91, 91);
+}
+.footer-section-wrapper .contact-us ul li {
+  margin-bottom: 10px;
+}
+.footer-section-wrapper .contact-us ul li i {
+  padding-left: 15px;
+  vertical-align: -1px;
+}
+.footer-section-wrapper .contact-us ul li span {
+  font-size: 16px;
+}
