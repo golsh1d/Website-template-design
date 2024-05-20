@@ -1,2 +1,3 @@
 # Website-template-design
-In this project, I designed an educational website template with HTML5, CSS3 and JAVASCRIPT without using any framework.
+I have created a website for teaching programming with HTML, CSS, and JavaScript from scratch.
+The website is fully responsive, meaning it adapts to different screen sizes and devices.
